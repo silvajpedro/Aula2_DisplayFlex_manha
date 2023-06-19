@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    border:solid 10px seagreen;
+    height: 105vh;
+   /* flex-direction: column-reverse; */
+   
+   /* 
+   row ---> já vem por padrão que e o padrão
+   em linha
+   row-reverse ---> padrão em linha só que ao
+   contrário 
+   column ---> deixa nossos elementos em 
+   coluna
+   column-reverse --> deixa nossos elementos
+   em coluna só que com as posições invertidas
+   
+    justify-content: center --> o eixo x inverte 
+    e vira eixo y.
+    align-items: center --> e o  eixo y inverte e 
+    vira eixo x.
+
+   
+   */
+   /* 
+   wrap ---> se não couber em uma única linha
+   passa para linha debaixo.
+   
+   no-wrap ---> vai manter todo mundo em uma única
+   linha.
+
+    wrap-reverse ---> se não couber em uma única linha
+    passa para linha debaixo e inverte a posição dos elementos.
+    */
+    flex-wrap:wrap-reverse ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div{
+
+    width: 25vw;
+    height: 25vh;
+    /* 
+    Viewport ---> A sua tela
+    vw e vh ---> no sistema de 1/100
+    100 sempre será o total da sua tela.
+    
+    viewport width --> largura da sua tela
+    viewport height --> altura da sua tela
+    */
+}
+.Roxa{
+background-color: purple;
+}
+.Amarela{
+background-color: yellow;
+}
+.Tomato{
+background-color: tomato;
+}
+.Vermelha{
+background-color: red;
+}
+.Verde{
+    background-color: green;
+}
